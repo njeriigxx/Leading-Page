@@ -10,8 +10,24 @@ nav {
 .nav li{
     display: inline;
     float: right;
-    padding: 50px;
+    padding: 60px;
     padding-top: 0px;
     justify-content: center;
-    font-weight: bold;
+   
+}
+.about {
+    display: flex;
+    align-items:center;
+  
+   
+}
+
+.portfolio {
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+    display: inline;
+    float: left;
 }
