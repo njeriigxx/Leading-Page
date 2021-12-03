@@ -52,8 +52,8 @@ button {
 }
 
  .hobbies img {
-    height: 15%;
-    width: 20%;
+    height: 30%;
+    width: 25%;
 } 
 .like {
     background-color: #FFFF;
@@ -64,10 +64,38 @@ button {
     padding: 5px;
     display: inline-block;  
 }
-.skills{
-    background-color: white;
-}
+ .skills{
+    /* background-color: white; */
+       
+} 
 .skills img {
     height:60px ;
     width: 50px;
 }
+.footer {
+
+}
+.container {
+    padding: 20px;
+   
+    /* background-color: #f1f1f1; */
+  }
+  
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 16px;
+    margin: 8px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+  }
+    
+  input[type=submit] {
+    background-color: blue;
+    /* color: white; */
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.4;
+  }
