@@ -58,10 +58,16 @@ button {
 .like {
     background-color: #FFFF;
     text-align: center;
-    /* background-color: white; */
 }
 .hobbies {
      width: 40%;
     padding: 5px;
     display: inline-block;  
+}
+.skills{
+    background-color: white;
+}
+.skills img {
+    height:60px ;
+    width: 50px;
 }
