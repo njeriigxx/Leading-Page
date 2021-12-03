@@ -1,5 +1,6 @@
 body{
     background-color: whitesmoke;
+    margin: 0px;
 }
 
 nav {
@@ -16,8 +17,7 @@ nav {
    
 }
 .about {
-    display: flex;
-    align-items:center;
+   
   
    
 }
@@ -101,7 +101,6 @@ button {
     opacity: 0.4;
   }
 .why ol {
-    display: table; 
-    margin: 0 auto;
-    text-align: left
+     display: inline-block; 
+   
   } 
