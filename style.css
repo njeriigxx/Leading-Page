@@ -21,13 +21,17 @@ nav {
   
    
 }
+.projects {
 
+}
 .portfolio {
     border-radius: 10px;
-    width: 300px;
-    margin-left: 50px;
+     width: 300px; 
+    margin-left: 150px;
     margin-top: 50px;
     text-align: center;
     display: inline;
     float: left;
+    text-align: center;
+    justify-content: space-around;
 }
