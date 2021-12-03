@@ -1,0 +1,13 @@
+nav {
+    height: auto;
+    padding: 35px;
+    margin: 0px;
+}
+.nav li{
+    display: inline;
+    float: right;
+    padding: 50px;
+    padding-top: 0px;
+    justify-content: center;
+    font-weight: bold;
+}
