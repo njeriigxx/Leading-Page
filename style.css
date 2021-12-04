@@ -84,7 +84,7 @@ button {
     box-sizing: border-box;
   }
   
-  .job-box{
+  .work-box{
     float: left;
     border: solid;
     border-width: 0px 0px 5px 0px;
@@ -95,24 +95,24 @@ button {
     height: auto;
   }
   
-  .job-box:hover {
+  .work-box:hover {
     background-color: gray;
   }
   
-  .job-title {
+  .work-title {
     font-weight: bold;
     line-height: 1.8;
     box-sizing: border-box;
   }
   
-  .job-date{
+  .work-date{
     color: #b30000;
     line-height: 1.5;
     box-sizing: border-box;
   }
   
   
-  .job-description{
+  .work-description{
     line-height: 1.5;
     box-sizing: border-box;
   }
@@ -126,18 +126,36 @@ button {
     width: 850px;
     margin: 20px 20px 20px 20px;
   }
+  /* .why-img {
+    float: left;
+    height: auto; 
+    width: 50%;
+    margin: 12px 12px 150% 12px; */
+    /* box-sizing: border-box;   */
   
+  /* .why-text {
+      text-align: right;
+  } */ 
 
+.why {
+    display: inline;
+}
+.why-text {
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+    /* margin-right: 100px; */
+    margin-left: 200px;
+    
+}
+.why img {
+    margin-left: 600px;
+}
 
-
- .skills{
-    /* background-color: white; */
-   
-} 
 .skills img {
     height:60px ;
     width: 50px;
-}
+} */
 .footer {
 
 }
@@ -165,8 +183,5 @@ button {
   input[type=submit]:hover {
     opacity: 0.4;
   }
-.why ol {
-     display: inline-block; 
-    
-  } 
+
   
