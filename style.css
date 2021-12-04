@@ -30,7 +30,8 @@ nav {
      width: 20%; 
      padding: 2px 16px;
     margin-left: 50px;
-    margin-top: 50px;
+    /* margin-top: 150px; */
+    margin-bottom: 30px;
     text-align: center;
     display: inline;
     float: left;
@@ -151,11 +152,15 @@ button {
 .why img {
     margin-left: 600px;
 }
-
+.skills {
+   margin: 30px;
+   
+   
+}
 .skills img {
-    height:60px ;
-    width: 50px;
-} */
+    height:80px ;
+    width: 70px;
+} 
 .footer {
 
 }
