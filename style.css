@@ -26,12 +26,13 @@ nav {
 }
 
 .portfolio {
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    border-radius: 0px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s; 
     width: 20%; 
     padding: 4px 20px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-bottom: 30px;
     text-align: center;
     display: inline;
@@ -42,6 +43,7 @@ nav {
     color:black;
     background-color: #e8dfe9;  
 }
+
 
 button {
     border-radius: 12px;
@@ -164,7 +166,8 @@ button {
     width: 70px;
 } 
 .footer {
-    padding:50px 0;
+    display: inline;
+    padding:150px 0;
     color:#f0f9ff;
     background-color:#282d32;
 }
@@ -180,7 +183,8 @@ button {
     /* align-items: center; */
     margin-bottom:0;
     text-align:right; 
-    width: 100%;
+    width: 55%;
+    float: right;
     
     /* float:right; */  
     /* display: inline-block; */
@@ -190,7 +194,7 @@ button {
   }
   
   input[type=text], input[type=submit] {
-    width: 100%;
+    width: 55%;
     padding: 16px;
     margin: 8px 0;
     display: inline-block;
@@ -207,9 +211,11 @@ button {
   input[type=submit]:hover {
     opacity: 0.4;
   }
-  .portfolio img {
-    border-radius: 5px;
-   padding-right: 5px;
-  }
+  
+.home {
+    text-align: left;
+    display: block;
+    margin-left: 150px;
 
+}
   
