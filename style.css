@@ -1,5 +1,6 @@
 body{
-    background-color: whitesmoke;
+    background-color: #282d32;
+    color: aliceblue;
     margin: 0px;
 }
 
@@ -58,7 +59,7 @@ button {
     width: 25%;
 } 
 .like {
-    background-color: #FFFF;
+    background-color:gray;
     text-align: center;
 }
 .hobbies {
@@ -71,6 +72,7 @@ button {
     float: left;
     box-shadow: 18px 18px 10px grey;
     background-color: white;
+    color: black;
     height: 450px;
     width: 850px;
     margin: 20px 20px 20px 20px;
@@ -122,6 +124,7 @@ button {
     float: right;
     box-shadow: 18px 18px 10px grey; 
     background-color: white;
+    color: #000;
     box-sizing: border-box;
     height: 450px;
     width: 850px;
@@ -153,8 +156,7 @@ button {
     margin-left: 600px;
 }
 .skills {
-   margin: 30px;
-   
+   margin: 30px; 
    
 }
 .skills img {
@@ -162,12 +164,29 @@ button {
     width: 70px;
 } 
 .footer {
-
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
 }
+.footer .social {
+    text-align:center;
+}
+.footer .copy {
+    text-align:center;
+    padding-top:14px; 
+}
+
 .container {
-    padding: 20px;
-   
+    /* align-items: center; */
+    margin-bottom:0;
+    text-align:right; 
+    width: 100%;
+    
+    /* float:right; */  
+    /* display: inline-block; */
+    /* float: right; */
     /* background-color: #f1f1f1; */
+    
   }
   
   input[type=text], input[type=submit] {
