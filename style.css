@@ -68,19 +68,18 @@ button {
 }
 .work-experience {
     float: left;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 18px 18px 10px grey;
     background-color: white;
     height: 450px;
     width: 850px;
-    margin: 15px 15px 15px 15px;
+    margin: 20px 20px 20px 20px;
     box-sizing: border-box;
   }
   
   .work-img {
     float: left;
-    /* background-color: #b30000; */
-    height: auto;
-    width: 50px;
+    height: auto; 
+    width: 60px;
     margin: 25px 30px 100% 30px;
     box-sizing: border-box;
   }
@@ -88,11 +87,11 @@ button {
   .job-box{
     float: left;
     border: solid;
-    border-width: 0px 0px 3px 0px;
+    border-width: 0px 0px 5px 0px;
     box-sizing: border-box;
     margin: 0px 10px 0px 0px;
-    padding: 10px 10px 10px 10px;
-    width: 200px;
+    padding: 12px 12px 12px 12px;
+    width: 320px;
     height: auto;
   }
   
@@ -102,7 +101,7 @@ button {
   
   .job-title {
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 1.8;
     box-sizing: border-box;
   }
   
